@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2FF59"
+        android:gravity="center"
+        android:text="GAME OVER"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F50057"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D500F9"
+        android:gravity="center"
+        android:text="Restart"></Button>
+
+</LinearLayout>

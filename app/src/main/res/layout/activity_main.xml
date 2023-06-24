@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="399dp"
+        android:layout_height="399dp"
+        android:background="@drawable/gridlines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/imageView00"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="0"
+            app:layout_row="0"/>
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView02"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/img_spekable"
+            android:onClick="onClick"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="onClick"
+            app:layout_column="2"
+            app:layout_row="2" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="306dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="44dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
